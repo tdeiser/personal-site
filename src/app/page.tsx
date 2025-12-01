@@ -1,4 +1,5 @@
-// app/page.tsx
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="min-h-screen flex justify-center px-4">
@@ -6,10 +7,13 @@ export default function Home() {
         {/* Top "logo"/name bar */}
         <header className="sticky top-0 z-40 mb-16 flex items-center justify-between gap-4 px-1 py-4 backdrop-blur-md bg-neutral-950/70 border-b border-neutral-900">
           <div className="flex items-center gap-3">
-            <img
+            <Image
               src="/signature_white.png"
               alt="Tommy Deiser signature"
+              width={160}
+              height={40}
               className="h-10 w-auto opacity-90"
+              priority
             />
           </div>
 
@@ -26,7 +30,6 @@ export default function Home() {
           </nav>
         </header>
 
-        {/* Hero */}
         <section className="mb-16">
           <p className="text-sm text-neutral-400 mb-3">
             Software developer · NYC area

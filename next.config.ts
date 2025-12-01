@@ -5,9 +5,11 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "export",
-  // Tell Next where the app lives in production (GitHub Pages subfolder)
   basePath: isProd ? "/personal-site" : undefined,
   assetPrefix: isProd ? "/personal-site/" : undefined,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
