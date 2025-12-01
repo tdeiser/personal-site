@@ -66,7 +66,7 @@ export default function Home() {
             solving problems, and figuring out how systems work. I graduated from Bergen
             Catholic High School (N.J.) in 2020 and the University of Notre Dame in 2024
             (go Irish!). I&apos;m a huge sports fan, especially baseball and football, and a
-            lifelong diehard Yankees fan at my core. I&apos;ve always been fascinated by
+            lifelong diehard Yankees fan. I&apos;ve always been fascinated by
             sports analytics and believe the numbers behind the game can often tell a
             different story. I enjoy digging into that data to understand the deeper
             patterns, trends, and decisions that shape outcomes.
