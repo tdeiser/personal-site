@@ -12,7 +12,7 @@ export default function Home() {
         <header className="sticky top-0 z-40 mb-16 flex items-center justify-between gap-4 px-1 py-4 backdrop-blur-md bg-neutral-950/70 border-b border-neutral-900">
           <div className="flex items-center gap-3">
             <Image
-              src="/signature_white.png"
+              src={`${BASE_PATH}/signature_white.png`}
               alt="Tommy Deiser signature"
               width={160}
               height={40}
