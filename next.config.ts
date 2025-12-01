@@ -8,8 +8,8 @@ const nextConfig: NextConfig = {
   basePath: isProd ? "/personal-site" : undefined,
   assetPrefix: isProd ? "/personal-site/" : undefined,
   images: {
-    unoptimized: true,
+    unoptimized: true, // required for next/image with static export
   },
 };
 
-export default nextConfig
+export default nextConfig;

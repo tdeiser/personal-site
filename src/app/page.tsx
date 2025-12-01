@@ -4,7 +4,6 @@ export default function Home() {
   return (
     <main className="min-h-screen flex justify-center px-4">
       <div className="w-full max-w-3xl py-16 sm:py-24">
-        {/* Top "logo"/name bar */}
         <header className="sticky top-0 z-40 mb-16 flex items-center justify-between gap-4 px-1 py-4 backdrop-blur-md bg-neutral-950/70 border-b border-neutral-900">
           <div className="flex items-center gap-3">
             <Image
