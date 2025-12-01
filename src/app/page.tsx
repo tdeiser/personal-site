@@ -1,3 +1,4 @@
+import Projects from "../components/ProjectList/Projects";
 import Image from "next/image";
 
 // TEST
@@ -100,11 +101,7 @@ export default function Home() {
             Projects
           </h3>
           <div className="space-y-4 text-sm text-neutral-400">
-            <p className="text-neutral-500">
-              Drop in 2–4 key projects here once you decide how you want this
-              section laid out. Cards, a simple list, or a two-column layout all
-              work well.
-            </p>
+            <Projects />
           </div>
         </section>
 
