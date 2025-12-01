@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+// TEST
+const BASE_PATH =
+  process.env.NODE_ENV === "production" ? "/personal-site" : "";
+
+
 export default function Home() {
   return (
     <main className="min-h-screen flex justify-center px-4">
